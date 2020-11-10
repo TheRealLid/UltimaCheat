@@ -1,6 +1,6 @@
 import time
 
-#FILEPATH = "C:/DOSGames/Ultima_5/SAVED.GAM"
+
 #  Offset stored as an int. Used in
 OFFSET = {"STR": int(0x0E), "INT": int(0x10), "DEX": int(0x0F), "MAGIC": int(0x11), "HP": int(0x12),
           "HM": int(0x14), "EXP": int(0x16), "GOLD": int(0x204), "KEY": int(0x206), "GEMS": int(0x207),
