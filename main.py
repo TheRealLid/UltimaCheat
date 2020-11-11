@@ -5,10 +5,12 @@ import time
 OFFSET = {"STR": int(0x0E), "INT": int(0x10), "DEX": int(0x0F), "MAGIC": int(0x11), "HP": int(0x12),
           "HM": int(0x14), "EXP": int(0x16), "GOLD": int(0x204), "KEY": int(0x206), "GEMS": int(0x207),
           "SKULLKEY": int(0x20B), "BLACKBADGE": int(0x218), "MAGICCARPET": int(0x20A), "MAGICAXE": int(0x240)}
+
 #  The max amount of an item/stat you can have within the game
 MAXVAL = {"STR": int(99), "INT": int(99), "DEX": int(99), "MAGIC": int(99), "HP": int(999), "HM": int(999),
           "EXP": int(9999), "GOLD": int(9999), "KEY": int(100), "GEMS": int(100), "SKULLKEY": int(100),
           "BLACKBADGE": int(1), "MAGICCARPET": int(99), "MAGICAXE": int(100)}
+
 OPTIONS = ["STR", "INT", "DEX", "MAGIC", "HP", "HM", "EXP", "GOLD", "KEY", "SKULLKEY", "GEMS", "BLACKBADGE",
            "MAGICCARPET", "MAGICAXE"]
 
